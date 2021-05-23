@@ -1,0 +1,85 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1300px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 94px 407px 0 433px;
+}
+
+.u-section-1 .u-text-2 {
+  width: 770px;
+  margin: 94px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: "IBM Plex Mono";
+  font-size: 0.625rem;
+  margin: 20px 185px 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-size: 0.625rem;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 333px;
+    margin-right: 307px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 770px;
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 223px;
+    margin-right: 197px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 720px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 133px;
+    margin-right: 107px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 33px;
+    margin-right: 7px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 340px;
+  }
+}
