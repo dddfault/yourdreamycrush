@@ -33724,10 +33724,34 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+    font-size: 0.625rem;
     margin-right: 0;
   }
 }
 
+ /*begin-variables custom-site-css*/.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	cursor: default;
+}
+
+.hiddenlink:hover {
+	pointer-events: none;
+}
+
+.hyperDis:hover {
+ 	cursor:default;
+}
+
+.invert-text
+{
+	color: #ffffff!important;
+	mix-blend-mode: difference;
+}/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/

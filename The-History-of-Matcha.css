@@ -5,12 +5,17 @@
 .u-section-1 .u-text-1 {
   font-weight: 700;
   width: 300px;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 94px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   width: 770px;
   margin: 94px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  padding: 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -20,14 +25,8 @@
   margin: 20px auto 60px;
 }
 
-.u-section-1 .u-btn-1 {
+.u-section-1 .u-btn-2 {
   padding: 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    font-family: "Roboto Condensed", sans-serif;
-  }
 }
 
 @media (max-width: 991px) {

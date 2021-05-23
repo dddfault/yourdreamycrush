@@ -5,7 +5,7 @@
 .u-section-1 .u-group-1 {
   width: 800px;
   min-height: 417px;
-  margin: 183px auto 60px;
+  margin: 60px auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -21,7 +21,7 @@
 
 .u-section-1 .u-btn-1 {
   font-family: Jaldi;
-  animation-duration: 2000ms;
+  animation-duration: 3000ms;
   border-style: none;
   background-image: none;
   padding: 0;
@@ -67,94 +67,25 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 69px;
-    margin-right: 35px;
-    margin-left: 84px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 1300px;
+  min-height: 720px;
 }
 
 .u-section-2 .u-text-1 {
   font-weight: 400;
   font-family: "IBM Plex Mono";
   width: 770px;
+  font-size: 1rem;
   margin: 116px auto 0;
-}
-
-.u-section-2 .u-text-2 {
-  background-image: none;
-  font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 348px 812px 0 185px;
-}
-
-.u-section-2 .u-text-3 {
-  font-weight: 400;
-  font-family: "IBM Plex Mono";
-  margin: 34px 185px 0;
-}
-
-.u-section-2 .u-btn-1 {
-  padding: 0;
-}
-
-.u-section-2 .u-btn-2 {
-  padding: 0;
-}
-
-.u-section-2 .u-btn-3 {
-  padding: 0;
-}
-
-.u-section-2 .u-btn-4 {
-  padding: 0;
-}
-
-.u-section-2 .u-text-4 {
-  font-family: "IBM Plex Mono";
-  width: 770px;
-  margin: 34px auto 60px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-text-2 {
-    margin-right: 712px;
-    margin-left: 85px;
-  }
-
-  .u-section-2 .u-text-3 {
-    width: 770px;
-    margin-left: 85px;
-    margin-right: 85px;
-  }
-
-  .u-section-2 .u-text-4 {
-    margin-left: 85px;
-    margin-right: 85px;
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-text-1 {
     width: 720px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-right: 577px;
-    margin-left: 0;
-  }
-
-  .u-section-2 .u-text-3 {
-    width: 720px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-2 .u-text-4 {
-    width: 720px;
-    margin-left: 0;
-    margin-right: auto;
   }
 }
 
@@ -162,43 +93,101 @@
   .u-section-2 .u-text-1 {
     width: 540px;
   }
-
-  .u-section-2 .u-text-2 {
-    margin-right: 397px;
-  }
-
-  .u-section-2 .u-text-3 {
-    width: 540px;
-  }
-
-  .u-section-2 .u-text-4 {
-    width: 540px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
     width: 340px;
+    font-size: 0.875rem;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 540px;
+}
+
+.u-section-3 .u-text-1 {
+  background-image: none;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 127px 812px 0 185px;
+}
+
+.u-section-3 .u-text-2 {
+  font-weight: 400;
+  font-family: "IBM Plex Mono";
+  margin: 34px 185px 0;
+}
+
+.u-section-3 .u-btn-1 {
+  padding: 0;
+}
+
+.u-section-3 .u-btn-2 {
+  padding: 0;
+}
+
+.u-section-3 .u-btn-3 {
+  padding: 0;
+}
+
+.u-section-3 .u-btn-4 {
+  padding: 0;
+}
+
+.u-section-3 .u-text-3 {
+  font-family: "IBM Plex Mono";
+  width: 770px;
+  font-size: 1rem;
+  margin: 34px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 712px;
+    margin-left: 85px;
   }
 
-  .u-section-2 .u-text-2 {
+  .u-section-3 .u-text-2 {
+    margin-right: 85px;
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 577px;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-3 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 397px;
+  }
+
+  .u-section-3 .u-text-3 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-1 {
     margin-right: 197px;
   }
 
-  .u-section-2 .u-text-3 {
-    width: 340px;
+  .u-section-3 .u-text-3 {
+    width: auto;
+    font-size: 0.625rem;
+    margin-top: 74px;
+    margin-left: 0;
+    margin-right: 0;
   }
-
-  .u-section-2 .u-text-4 {
-    width: 340px;
-  }
-}.invert-text
-{
-color: #ffffff!important;
-mix-blend-mode: difference;
-}
-.invert-text-b
-{
-color: #000000!important;
-mix-blend-mode: difference;
 }

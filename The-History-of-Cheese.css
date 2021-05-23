@@ -4,6 +4,7 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 94px 407px 0 433px;
 }
 
@@ -24,7 +25,6 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    font-family: "Roboto Condensed", sans-serif;
     margin-left: 333px;
     margin-right: 307px;
   }
